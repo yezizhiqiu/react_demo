@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Vote from './Vote'
 import store from './store/index'
-import { Provider } from 'react-redux'
+// import { Provider } from 'react-redux'
+import { Provider } from './my-react-redux'
 
 /* ReactDOM.render(<>
     <Vote store={store}></Vote>

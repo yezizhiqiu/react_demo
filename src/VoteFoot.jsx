@@ -86,10 +86,12 @@ import action from "./store/actions/actions";
     }
 
 } */
-import { connect } from 'react-redux'
+// import { connect } from 'react-redux'
+import { connect } from './my-react-redux'
 class VoteFoot extends React.Component {
     render() {
         let { changeSupNum, changeOppNum } = this.props
+        console.log(changeSupNum);
         return <>
             <button onClick={ev => {
                 changeSupNum()

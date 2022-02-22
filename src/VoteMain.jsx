@@ -1,6 +1,7 @@
 import React from "react";
 import PropsTypes from 'prop-types'
-import { connect } from 'react-redux'
+// import { connect } from 'react-redux'
+import { connect } from './my-react-redux'
 function computed(supNum, oppNum) {
     let total = supNum + oppNum
     if (total === 0) {

@@ -24,5 +24,12 @@
     方案三：上下文传递使用prop_types
     方案四：redux 公共状态管理容器 通过上下文传值
 
-+ 
+
++ react-redux
+    index7.js Vote.jsx (VoteHead.jsx+VoteMain.jsx+VoteFoot.jsx)
+
++ react-redux源码实现 redux源码实现
+    index7.js Vote.jsx(VoteHead.jsx+VoteMain.jsx+VoteFoot.jsx)  my-redux.jsx my-react-redux.jsx
+    
+
 

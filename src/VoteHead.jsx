@@ -87,7 +87,8 @@ import PropsTypes from 'prop-types'
         })
     }
 } */
-import { connect } from 'react-redux'
+// import { connect } from 'react-redux'
+import { connect } from './my-react-redux'
 class VoteHead extends React.Component {
     render() {
         const { title, supNum, oppNum } = this.props
